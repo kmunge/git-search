@@ -1,27 +1,46 @@
-# Gitsearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+# Git-search
+#### Git-search, May 6st 2019
+#### By **Munge Kevin**
 
-## Development server
+## Description
+- 
+This project was generated with Angular CLI version 7.3.6. This is a web app that allows users to search a github username and the users repositories will be displayed alongside his profile details.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Behaviour Driven Development(BDD)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+| Input                        | Ouput                                                                                            |
+|--------------------------    |----------------------------------------------------------------------------------------------    |
+| Clicks search user    | Users details will be displayed                  |
+| Clicks Search repos         | User Repositories are displayed             |
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Setup/Installation requirements
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Clone  or download and unzip the repository from github, [https://github.com/kmunge/git-search.git](https://github.com/kmunge/git-search.git).
+- If you have git Use this command `git clone *` to clone the project.
+- Run ng serve from your terminal
 
-## Running end-to-end tests
+## Live Demo
+To view the page click on the link below
+* [https://kmunge.github.io/git-search/user](*)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Technologies Used
+- Angular CLI
+
+## Known Bugs
+- There are no known bugs currently. The page works as expected.
+
+## Support and Contact Details
+- For any comments,suggestions,feedback or inquiries, contact me via email: `orokomunge@gmail.com`
+
+
+- Make contributions to the code.
+
+## License
+- This project is licensed under the MIT Open Source license Copyright (c) 2019. [kevin munge](https://github.com/kmunge)
