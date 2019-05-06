@@ -1,0 +1,19 @@
+.jumbotron {
+    background-color: rgba(7, 16, 83, 0.342);
+}
+.idname {
+    text-align: center;
+    text-decoration-line: underline;
+}
+.imgpadding {
+    padding: 3%;
+}
+.card {
+    background-color:rgba(170, 116, 116, 0.452);
+}
+.list-details{
+    margin: 5%;
+}
+#cardrepos{
+    margin: 0.5%;
+}
