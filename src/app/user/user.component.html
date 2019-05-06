@@ -2,14 +2,14 @@
 
 <div class= "container-fluid">
 
-    <nav class="nav navbar-dark" style="background-color: #14212b88;">
+    <nav class="nav navbar-dark" style="background-color: #03421f88;">
         <div class="navbar">     
-            <a href="{{user.html_url}}" target="_blank" class =" btn btn-info btn-sm">User Profile on Github</a>
+            <a href="{{user.html_url}}" target="_blank" class =" btn btn-info btn-sm">Profile on Github</a>
          </div>     
       </nav>
       <br>
   <div class = "jumbotron">
-    <h1 style="text-align:center" class = "githeader"> <strong>Github Search Repo</strong> </h1> 
+    <h1 style="text-align:center" class = "githeader"> <strong>Search git Repo</strong> </h1> 
     <form>
       <div class="form-group">
         <input type="text" placeholder="Enter GitHub UserName Here" class="form-control" [(ngModel)] = "username" name="username">
@@ -55,7 +55,7 @@
                     <div id = "cardrepos" *ngFor= "let repo of repos" class = "card col-md-5 border-secondary" style = "width:50%">
                       <div class = "card-body" class ="card-title"> <strong> {{repo.name}} </strong> </div>
                        <div class = "card-body">{{repo.description}}</div>
-                       <p><a href="{{repo.html_url}}" target = "_blank" class="btn btn-success btn-sm"> Repo Details on Github</a></p>                                     
+                       <p><a href="{{repo.html_url}}" target = "_blank" class="btn btn-success btn-sm"> Repository Details on Github</a></p>                                     
                 </div>
               </div>
                 

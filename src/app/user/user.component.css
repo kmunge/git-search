@@ -1,5 +1,5 @@
 .jumbotron {
-    background-color: rgba(7, 16, 83, 0.342);
+    background-color: #03421f88;
 }
 .idname {
     text-align: center;
@@ -9,7 +9,7 @@
     padding: 3%;
 }
 .card {
-    background-color:rgba(170, 116, 116, 0.452);
+    background-color:  #03421f88;
 }
 .list-details{
     margin: 5%;
