@@ -1,0 +1,13 @@
+.idname {
+    text-align: center;
+    text-decoration-line: underline;
+}
+.imgpadding {
+    padding: 3%;
+}
+.card {
+    background-color:rgba(170, 116, 116, 0.452);
+}
+.list-details{
+    margin: 5%;
+}
